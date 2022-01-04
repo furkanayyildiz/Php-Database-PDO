@@ -69,7 +69,7 @@ require_once "baglan.php";
             <td><?php echo $bilgilerimcek["bilgilerim_mail"]?></td>
             <td><?php echo $bilgilerimcek["bilgilerim_yas"]?></td>
             <td align="center"><a href="duzenle.php?bilgilerim_id=<?php echo $bilgilerimcek["bilgilerim_id"]?>"><button>Düzenle</button></a></td>
-            <td align="center"><a href="islem.php?bilgilerim_id=<?php echo $bilgilerimcek["bilgilerim_id"]?>&bilgilerimsil=ok"><button>Sil</button></a></td>
+            <td align="center"><a href="islem.php?bilgilerim_id=<?php echo $bilgilerimcek["bilgilerim_id"]?>&bilgilerimsil=ok"><button style="background-color:red;color:white">Sil</button></a></td>
         </tr>
         <?php } ?>
     </table>

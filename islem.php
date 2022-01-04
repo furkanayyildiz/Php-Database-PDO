@@ -2,7 +2,7 @@
 
 require_once 'baglan.php';
 
-
+// insert işlemi
 if (isset($_POST['insertislemi'])) {
 	
 	
@@ -41,7 +41,7 @@ if (isset($_POST['insertislemi'])) {
 
 
 }
-
+    // update işlemi
 
 if (isset($_POST['updateislemi'])) {
 	
@@ -83,6 +83,7 @@ if (isset($_POST['updateislemi'])) {
 
 }
 
+// silme işlemi
 if ($_GET['bilgilerimsil']=="ok") {
 	
 
